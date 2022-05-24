@@ -1,0 +1,11 @@
+us.muit.fs.a4i.config
+us.muit.fs.a4i.control
+us.muit.fs.a4i.exceptions
+us.muit.fs.a4i.model.entities
+us.muit.fs.a4i.model.remote
+us.muit.fs.a4i.persistence
+us.muit.fs.a4i.test.config
+us.muit.fs.a4i.test.control
+us.muit.fs.a4i.test.model.entities
+us.muit.fs.a4i.test.model.remote
+us.muit.fs.a4i.test.persistence
