@@ -18,7 +18,7 @@ plugins {
     //Plugin para análisis estático de código
     id "nebula.lint" version "17.7.0"
 }
-version = '0.0'
+version = '0.0.1-estbrasal'
 tasks.withType(JavaCompile) {
     //Añadir la opción Xlint
     options.deprecation = true
@@ -107,7 +107,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/mit-fs/audit4improve-api")         
+            url = uri("https://maven.pkg.github.com/estheruly1998/audit4improve-api")         
             credentials {
             //las propiedades gpr.user y gpr.key están configuradas en gradle.properties en el raiz del proyecto, y se añade a .gitignore para que no se suban
             //O bien configuro las variables de entorno GITHUB_LOGIN y GITHUB_PACKAGES
@@ -122,7 +122,7 @@ publishing {
         
             groupId = 'us.mitfs.samples'
             artifactId = 'a4i'
-            version = '0.0'
+            version = '0.0.1-estbrasal'
 
             from components.java
         }
