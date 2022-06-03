@@ -22,7 +22,11 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '16'
+<<<<<<< HEAD
       - name: Construyendo el codigo
+=======
+      - name: Construyendo el código
+>>>>>>> ca3271e7689adf41a05e5abdfac06532fd5f6213
         run: |
           chmod +x gradlew        
           ./gradlew assemble
@@ -34,7 +38,11 @@ jobs:
       GITHUB_PACKAGES: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
     steps:
+<<<<<<< HEAD
       - name: Probando el codigo
+=======
+      - name: Probando el código
+>>>>>>> ca3271e7689adf41a05e5abdfac06532fd5f6213
         run: |
           chmod +x gradlew        
           ./gradlew test
