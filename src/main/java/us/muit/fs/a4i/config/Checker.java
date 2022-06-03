@@ -237,4 +237,9 @@ public class Checker {
 		return metricDefinition;
 	}
 
+	public HashMap<String, String> definedReportItem(String reportItemName, String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

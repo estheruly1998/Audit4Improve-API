@@ -167,7 +167,7 @@ public class Report implements ReportI {
 		return repoinfo;
 	}
 	@Override
-	public <Metric> getAllMetrics() {
+	public Collection<Metric> getAllMetrics() {
 		// TODO Auto-generated method stub
 		return metrics.values();
 	}
