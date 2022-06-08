@@ -1,0 +1,19 @@
+name: Flujo de estbrasal
+on:
+  workflow_dispatch:
+  issues:
+   types: [transferred]
+  
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Flujo estbrasal Accion Stale
+        uses: actions/stale@v4
+        with:
+          stale-issue-message: 'This issue is stale because it has been open 30 days with no activity. Remove stale label or comment or this will be closed in 5 days.'
+          days-before-stale: 30
+          days-before-close: 5
+
+        
+
